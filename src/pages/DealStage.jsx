@@ -267,9 +267,9 @@ export default function DealStage() {
                         </div>
                       </div>
                     </div>
-                    <div className={`flex items-center justify-center w-14 h-14 rounded-xl border-2 font-bold text-lg ${getScoreColor(company.opportunity_score)}`}>
-                      {company.opportunity_score}
-                    </div>
+                    <Badge variant="outline" className={`px-3 py-1 ${stageInfo.color} text-white border-0`}>
+                      {stageInfo.label}
+                    </Badge>
                   </div>
 
                   {/* Progress Bar */}

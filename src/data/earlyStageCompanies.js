@@ -1,52 +1,52 @@
 export const earlyStageCompanies = [
   {
     id: "es-1",
-    name: "NeuralPath Bio",
-    contact_name: "Dr. Sarah Chen",
-    contact_email: "sarah@neuralpathbio.com",
-    website: "https://neuralpathbio.com",
-    description: "AI-powered drug discovery platform focused on neurological diseases, using novel protein structure prediction to identify therapeutic targets",
+    name: "CellularOS",
+    contact_name: "Dr. Maya Rodriguez",
+    contact_email: "maya@cellularos.bio",
+    website: "https://cellularos.bio",
+    description: "Operating system for cell manufacturing — software platform that automates and optimizes cell therapy production processes",
     contact_source: "referral",
     stage: "meeting_scheduled",
     last_contact_date: "2026-01-25",
     email_thread_count: 3,
-    market: "AI Drug Discovery / Biotech",
-    ai_summary: "Strong founder with Stanford neuroscience PhD and Google DeepMind experience. Platform approach to neurological disease targets is differentiated. Early data promising — 3 novel targets identified that pharma partners are interested in.",
-    notes: "Sarah Chen built the protein folding team at DeepMind before leaving to start NeuralPath. The company applies similar AI approaches specifically to neurological diseases, which have unique structural biology challenges. Their proprietary dataset of neurological protein interactions gives them a data advantage. Initial validation with Biogen partnership discussions.",
-    market_size: "$8.2B AI drug discovery market by 2028",
-    market_growth: "28.4% CAGR",
+    market: "Cell Therapy Manufacturing / Biotech",
+    ai_summary: "Strong founder with MIT PhD and Genentech manufacturing background. Platform addresses critical bottleneck in cell therapy production. Early pilots with 2 CDMOs showing 40% improvement in manufacturing efficiency.",
+    notes: "Maya Rodriguez spent 8 years at Genentech leading manufacturing automation for biologics. She saw the cell therapy manufacturing bottleneck firsthand and built CellularOS to address it. The platform provides real-time monitoring, predictive quality control, and automated batch management for cell manufacturing.",
+    market_size: "$12B cell therapy manufacturing market by 2030",
+    market_growth: "24.6% CAGR",
     team_background: [
-      "Dr. Sarah Chen — Founder/CEO, Stanford PhD Neuroscience, ex-Google DeepMind protein folding team",
-      "Dr. Michael Torres — CSO, ex-Recursion Pharmaceuticals, led computational biology",
-      "Team of 8, mostly ML engineers with biology backgrounds",
-      "Scientific advisors include 2 Nobel laureates in chemistry"
+      "Dr. Maya Rodriguez — Founder/CEO, MIT PhD Biological Engineering, 8 years at Genentech manufacturing",
+      "Dr. Kevin Park — CTO, ex-Benchling, built laboratory software infrastructure",
+      "Team of 12, mix of bioprocess engineers and software developers",
+      "Advisory board includes former heads of manufacturing at Novartis and Bristol Myers Squibb"
     ],
     competitive_landscape: [
-      { name: "Recursion", positioning: "Broad drug discovery platform — $4B+ valuation, less focused on neuro" },
-      { name: "Insilico Medicine", positioning: "AI drug discovery with clinical pipeline — generalist approach" },
-      { name: "Isomorphic Labs (Alphabet)", positioning: "DeepMind spinout — massive resources but not neuro-focused" }
+      { name: "Cytiva (Danaher)", positioning: "Hardware-focused — sells equipment but limited software capabilities" },
+      { name: "Benchling", positioning: "Lab informatics — strong R&D focus but weak in manufacturing" },
+      { name: "Apprentice.io", positioning: "Pharma manufacturing platform — more focused on traditional manufacturing" }
     ],
     green_flags: [
-      "Exceptional founder pedigree — DeepMind protein folding team",
-      "Deep focus on neurological diseases creates specialization advantage",
-      "Proprietary neurological protein interaction dataset",
-      "Biogen partnership discussions validate pharma interest",
-      "Strong scientific advisory board with Nobel laureates"
+      "Exceptional founder pedigree — Genentech manufacturing leadership",
+      "Critical bottleneck problem — cell therapy demand outstrips manufacturing capacity",
+      "Early CDMO pilots showing 40% efficiency improvements",
+      "Strong technical team with relevant bioprocessing experience",
+      "Clear regulatory pathway — software doesn't require FDA approval"
     ],
     red_flags: [
-      "Early stage — no clinical validation yet",
-      "Small team may struggle to scale computational infrastructure",
-      "Neurological diseases have notoriously high clinical failure rates"
+      "Cell therapy manufacturing is complex — long sales cycles",
+      "Requires integration with diverse equipment vendors",
+      "Early stage — only 2 pilot customers"
     ],
     recommendation: "advance_to_deal_stage",
-    recommendation_reasoning: "NeuralPath Bio fits 2048's biotech thesis perfectly. Exceptional founder from DeepMind, focused platform approach in neurological diseases, and early pharma validation. The specialized focus gives them advantages over generalist AI drug discovery platforms. Worth advancing to diligence.",
+    recommendation_reasoning: "CellularOS fits 2048's deep tech thesis perfectly. Exceptional founder from Genentech manufacturing, addresses critical bottleneck in high-growth cell therapy market, and early pilot data is compelling. The efficiency gains translate directly to customer ROI.",
     key_questions: [
-      "What's the differentiation in your protein structure prediction vs. AlphaFold/ESMFold?",
-      "How does your neurological protein dataset compare to public databases?",
-      "What's the status of Biogen partnership discussions? What would a deal look like?",
-      "How do you think about building vs. licensing your discovered targets?"
+      "What's the path from pilot to full production contracts at CDMOs?",
+      "How do you handle integration with different equipment vendors?",
+      "What's the competitive moat as more software companies enter this space?",
+      "How do you think about pricing — subscription vs. usage-based?"
     ],
-    market_assessment: "AI drug discovery is exploding, but most platforms are generalists. NeuralPath's specialization in neurological diseases — which have unique protein folding challenges — could be a meaningful differentiation. The pharma partners (Biogen, Eli Lilly neuro division) are actively seeking exactly this type of platform.",
+    market_assessment: "Cell therapy is one of the fastest-growing segments in biopharma, but manufacturing is a critical bottleneck. Manual processes, batch failures, and capacity constraints limit scale. CellularOS addresses this with software that can be deployed without major capital investment.",
     touchpoints: [
       { date: "2026-01-15", type: "email", summary: "Inbound via warm intro from Julie Wolf's network at IndieBio." },
       { date: "2026-01-20", type: "call", summary: "30-min intro call with Sarah. Impressive background, clear vision for neuro-focused platform." },
